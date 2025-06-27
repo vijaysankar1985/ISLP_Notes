@@ -1,0 +1,15 @@
+// Tree Structure
+digraph {
+	rankdir=TB
+	Root [label=Root]
+	Child1 [label="Child 1"]
+	Child2 [label="Child 2"]
+	GC11 [label="Grandchild 1.1"]
+	GC12 [label="Grandchild 1.2"]
+	GC21 [label="Grandchild 2.1"]
+	Root -> Child1
+	Root -> Child2
+	Child1 -> GC11
+	Child1 -> GC12
+	Child2 -> GC21
+}
